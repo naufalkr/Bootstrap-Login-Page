@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --primary-font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+    font-family:var(--primary-font-family);
+    font-size: 14px;
+    margin-top: 20px;
+    background-image:url('background.png');
+    background-size: cover;
+} 
+
+.wrapper{
+    padding:20px 0 100px;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-attachment: fixed;
+    background-size:contain;
+    background-size: cover; /* Use 'cover' to ensure the background covers the entire page */
+    min-height: 100%;
+}
+
+.wrapper .logo img{
+    max-width:40%;
+}
+.wrapper input{
+    background-color: rgb(223, 222, 222);
+    border-color: white;
+    color: rgb(179, 177, 177); 
+}
+.wrapper input:focus{ 
+    box-shadow: none;
+}
+
+.wrapper .submit_btn{
+    padding:15px;
+    font-weight: 500;
+}
+.wrapper .login_with{
+    padding:15px;
+    font-size: 15px;
+    font-weight: 500;
+    transition:0.3s ease-in-out;
+}
+.wrapper .submit_btn:focus, .wrapper .login_with:focus{
+    box-shadow: none;    
+}
+
+.wrapper .submit_btn{
+    background-color: #0d2c42;
+}
+
+.wrapper .login_with{
+    padding: 8px;
+}
+
+.wrapper .submit_btn:hover{
+    background-color: #051420;
+}
+
+.wrapper .login_with:hover{
+    background-color: #0d2c42;
+    color: white;
+}
+
+.wrapper .login_with img{
+    max-width: 8%;
+}
+        
+      
